@@ -2,16 +2,22 @@ import React from 'react'
 import "./singleProject.scss"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useLocation } from 'react-router-dom';
 
 export default function SingleProject() {
+    const location = useLocation(null);
+    const { project } = location.state || {}; 
+    console.log(project);
+
   return (
     <div className='singleProject'>
-      <div className="wrapper">
+      { project ?
+        <div className="wrapper">
           <div className="imgContainer">
-            <img src="" alt="" />
+            <img src={project.img} alt="" />
           </div>
           <div className="infoContainer">
-            <h1>Title</h1>
+            <h1>{project.title}</h1>
             <div className="title-break" />
             <div className="descContainer">
               <h3>Description</h3>
@@ -53,7 +59,11 @@ export default function SingleProject() {
             </div>
           </div>
           </div>
+      </div> :
+      <div className="notfound">
+        <span>Project Not Found !</span>
       </div>
+      }
     </div>
   )
 }

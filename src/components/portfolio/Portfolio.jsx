@@ -8,11 +8,13 @@ import {
   designPortfolio,
   contentPortfolio
 } from "../../data"
+import { useNavigate } from 'react-router-dom';
 
-export default function Portfolio({ clicked, setClicked}) {
+export default function Portfolio() {
 
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
+  const navigate = useNavigate();
   const list = [
     {
       id: "featured",
@@ -58,17 +60,10 @@ export default function Portfolio({ clicked, setClicked}) {
     }
 }, [selected])
 
-// useEffect(()=>{
-//     getProject () {
-//       try {
-//         const res = 
-//       } catch (error) {
-//         console.log(error)
-//       }
-//     }
-// }, [clicked])
+const handleClick =(project)=> {
+    navigate(`/project/${project.id}`, { state: {project} });
+}
 
-console.log(data);
   return (
     <div className='portfolio' id="portfolio">
       <h1>Portfolio</h1>
@@ -81,10 +76,9 @@ console.log(data);
           />
         ))}
       </ul>
-      
-        <div className="container">
+        <div className="container" >
           {data.map((d)=>(
-            <div className="item" onClick={()=>setClicked(true)}>
+            <div className="item" key={d.id} onClick={()=>handleClick(d)} >
               <img src={d.img} alt="" />
               <h3>{d.title}</h3>
             </div>
