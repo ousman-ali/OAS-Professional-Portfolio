@@ -1,0 +1,149 @@
+@import "../../global.scss";
+
+.singleProject {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px 30px;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .imgContainer {
+            flex: 2;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            margin-right: 10px;
+
+            @include mobile {
+                width: 100%;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .infoContainer {
+            flex: 3;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-left: 10px;
+
+            h1{
+                font-size: 30px;
+                font-weight: 500;
+                color: $mainColor;
+            }
+            .title-break{
+                height: 0.5px;
+                width: 60%;
+                background-color: $mainColor;
+                box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            }
+            .descContainer{
+                display: flex;
+                flex-direction: column;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                color: $mainColor;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                margin-left: 40px;
+
+                @include mobile {
+                    margin-left: 20px;
+                }
+            }
+        }
+        
+        .technologies{
+            display: flex;
+            flex-direction: column;
+
+            .lists{
+                display: flex;
+                justify-content: flex-start;
+
+                @include mobile {
+                    margin-left: -20px;
+                }
+
+                h3{
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    color: $mainColor;
+                }
+
+
+                .tech-list{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+
+                    h4{
+                        font-size: 18px;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        color: $mainColor;
+                    }
+                    li{
+                        font-size: 14px;
+                        font-weight: 300;
+
+                        @include mobile{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .links{
+            display: flex;
+            // border: 1px solid black;
+
+            .icon{
+                margin-left: 30px;
+                border: none;
+                box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+                border-radius: 8px;
+                padding: 3px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: lightgrey;
+                }
+            }
+        }
+    }
+}
