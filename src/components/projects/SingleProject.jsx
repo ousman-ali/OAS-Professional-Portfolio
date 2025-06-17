@@ -6,8 +6,7 @@ import { useLocation } from 'react-router-dom';
 
 export default function SingleProject() {
     const location = useLocation(null);
-    const { project } = location.state || {}; 
-    console.log(project);
+    const { project } = location.state || {};
 
   return (
     <div className='singleProject'>
@@ -32,16 +31,16 @@ export default function SingleProject() {
               </div>
               <div className="lists">
                 <div className="tech-list">
+                  <h4>For Front End</h4>
                    <ul>
-                    <h4>For Front End</h4>
                     <li>React JS</li>
                     <li>styled components</li>
                     <li>redux for state management</li>
                    </ul>
                 </div>
                 <div className="tech-list">
+                  <h4>For Back End</h4>
                    <ul>
-                    <h4>For Back End</h4>
                     <li>Node.js with express js</li>
                     <li>JWT for user authentication</li>
                     <li>mongoDB as a data base</li>

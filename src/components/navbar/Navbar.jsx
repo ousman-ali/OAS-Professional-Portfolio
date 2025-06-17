@@ -3,7 +3,7 @@ import './navbar.scss'
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
 
-export default function Navbar({menuOpen, setMenuOpen}) {
+export default function Navbar({menuOpen, setMenuOpen, project}) {
   return (
     <div className={"navbar " + (menuOpen && "active") }>
       <div className="wrapper">
@@ -19,11 +19,11 @@ export default function Navbar({menuOpen, setMenuOpen}) {
           </div>
         </div>
         <div className="right">
-         <div className="humburger" onClick={()=>setMenuOpen(!menuOpen)}>
+         {!project && <div className="humburger" onClick={()=>setMenuOpen(!menuOpen)}>
           <span className='line'></span>
           <span className='line'></span>
           <span className='line'></span>
-         </div>
+         </div>}
         </div>
       </div>
     </div>

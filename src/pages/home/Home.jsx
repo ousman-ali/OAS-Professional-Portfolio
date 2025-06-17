@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Contact from "../../components/contact/Contact";
 import Intro from "../../components/intro/Intro";
 import Portfolio from "../../components/portfolio/Portfolio";
@@ -8,8 +7,7 @@ import Menu from "../../components/menu/Menu"
 import Navbar from "../../components/navbar/Navbar"
 import "./home.scss"
 
-function Home() {
-    const [menuOpen, setMenuOpen]=useState(false);
+function Home({menuOpen, setMenuOpen}) {
 
     return ( 
         <div className="home">
