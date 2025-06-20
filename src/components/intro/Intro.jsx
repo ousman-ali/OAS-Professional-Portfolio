@@ -1,6 +1,9 @@
-import React, { useEffect, useRef } from 'react'
-import './intro.scss'
-import { init } from 'ityped'
+import React, { useEffect, useRef } from 'react';
+import './intro.scss';
+import { init } from 'ityped';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 export default function Intro() {
   const textRef = useRef();
@@ -39,10 +42,32 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Ousman Ali</h1>
           <h3>Freelancer: <span ref={textRef}/></h3>
+          <div className="linkWrapper">
+                <div className="socialLinks">
+                  <a href="www.linkedin.com/in/ousman-ali-8271182b3" 
+                  target="_blank" rel="noopener noreferrer" >
+                    <LinkedInIcon className='icon'/>
+                  </a>
+                </div>
+                <div className="socialLinks">
+                  <a href="https://github.com/ousman-ali" 
+                  target="_blank" rel="noopener noreferrer" >
+                    <GitHubIcon className='icon'/>
+                  </a>
+                </div>
+                <div className="socialLinks">
+                  <a href="http://t.me/ibn_habi" 
+                  target="_blank" rel="noopener noreferrer" >
+                    <TelegramIcon className='icon'/>
+                  </a>
+                </div>
+          </div>
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
+        <div className="arrowdown">
+          <a href="#portfolio" >
+            <img src="assets/down.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   )

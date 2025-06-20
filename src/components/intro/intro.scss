@@ -46,6 +46,34 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            
+            .linkWrapper{
+                display: flex;
+                margin-top: 30px;
+                margin-left: -10px;
+                padding: 20px 10px;
+
+                .socialLinks{
+                    margin-right: 10px;
+                    border-radius: 5px;
+                    padding: 3px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 40px;
+                    cursor: pointer;
+
+
+                    &:hover{
+                        scale: 1.1;
+                    }
+
+                    .icon{
+                        font-size: 30px;
+                        color: black;
+                    }
+                }
+            }
 
             @include mobile{
                 padding-left: 0;
@@ -89,6 +117,11 @@
             }
         }
         
+        .arrowdown{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         a{
             position: absolute;
             bottom: 10px;
@@ -104,6 +137,7 @@
                     opacity: 0;
                 }
             }
+        }
         }
     }
 }

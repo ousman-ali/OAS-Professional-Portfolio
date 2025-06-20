@@ -2,13 +2,16 @@ import React from 'react'
 import './navbar.scss'
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from "react-router-dom";
 
 export default function Navbar({menuOpen, setMenuOpen, project}) {
   return (
     <div className={"navbar " + (menuOpen && "active") }>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">OAS.</a>
+          {project 
+          ? <Link to="/"  className="logo">OAS.</Link> 
+          : <a href="#intro" className="logo">OAS.</a>}
           <div className="itemContainer">
             <PersonIcon className='icon'/>
             <span>+251963649826</span>

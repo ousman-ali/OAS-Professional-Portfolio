@@ -2,252 +2,154 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      img: "/assets/projects/social.png",
+      desc: "The Social Media App, developed using the MERN stack, offers users a dynamic platform to connect, share, and engage with friends and communities. With a clean and intuitive interface, users can create profiles, post updates, share images, and comment on each other's content. The app features real-time notifications, private messaging, and customizable friend lists, fostering meaningful interactions. Additionally, advanced search functionality and user-generated content categorization enhance the overall experience, making it easy for users to discover new connections and engage with relevant topics.",
+      githubLink: "https://github.com/ousman-ali/MERN-Social-App",
+      linkedlnLink: ""
     },
     {
       id: 2,
-      title: "Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+      title: "Booking App",
+      img: "/assets/projects/book.png",
+      desc: "The Bus Station Booking Web App is a user-friendly platform designed to streamline the process of booking bus tickets for travelers. Built using the MERN stack, it features a simple interface where users can easily search for available routes, view schedules, and compare prices from various bus operators. The app provides real-time updates on bus arrivals and departures, along with features like user reviews, seat selection, and the ability to manage bookings, ensuring a seamless travel experience from start to finish.",
+      githubLink: "https://github.com/ousman-ali/Bus-Station-Customer-Service",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_webdevelopment-fullstack-bookingwebapp-activity-7222908141498216448-SZMG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      title: "E-commerce Website",
+      img: "/assets/projects/ecom.png",
+      desc: "The E-commerce Website, built with the MERN stack, provides a seamless shopping experience for users looking to buy a wide range of products online. Featuring an intuitive interface, customers can easily browse categories, filter products, and read detailed descriptions and reviews. The site supports user registration and secure authentication, allowing for personalized shopping experiences and wish lists. With a responsive design, real-time inventory updates, and efficient search functionality, the website ensures that users can find and purchase their desired items effortlessly, all while enjoying smooth navigation and quick load times.",
+      githubLink: "https://github.com/ousman-ali/Ecommerce_Web_App",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_project-title-mern-stack-e-commerce-web-activity-7338444140763901953-BZgm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
-      img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
+      title: "Portfolio Website",
+      img: "/assets/projects/portfolio.png",
+      desc: "The Portfolio Website, developed using the MERN stack, serves as a professional showcase for individuals to display their skills, projects, and accomplishments. With a visually appealing layout, users can effortlessly navigate through various sections, including project galleries, case studies, and a personal bio. The site features interactive elements like image sliders and hover effects, enhancing user engagement. Additionally, it allows for easy updates and management of content, ensuring that the portfolio remains current and reflective of the creator's evolving expertise and style. Overall, it provides a compelling platform for individuals to present their work to potential employers and clients.",
+      githubLink: "https://github.com/ousman-ali/OAS-Professional-Portfolio",
+      linkedlnLink: ""
+    }
   ];
   
   export const webPortfolio = [
-    {
+     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Social Media App",
+      img: "/assets/projects/social.png",
+      desc: "The Social Media App, developed using the MERN stack, offers users a dynamic platform to connect, share, and engage with friends and communities. With a clean and intuitive interface, users can create profiles, post updates, share images, and comment on each other's content. The app features real-time notifications, private messaging, and customizable friend lists, fostering meaningful interactions. Additionally, advanced search functionality and user-generated content categorization enhance the overall experience, making it easy for users to discover new connections and engage with relevant topics.",
+      githubLink: "https://github.com/ousman-ali/MERN-Social-App",
+      linkedlnLink: ""
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "Booking App",
+      img: "/assets/projects/book.png",
+      desc: "The Bus Station Booking Web App is a user-friendly platform designed to streamline the process of booking bus tickets for travelers. Built using the MERN stack, it features a simple interface where users can easily search for available routes, view schedules, and compare prices from various bus operators. The app provides real-time updates on bus arrivals and departures, along with features like user reviews, seat selection, and the ability to manage bookings, ensuring a seamless travel experience from start to finish.",
+      githubLink: "https://github.com/ousman-ali/Bus-Station-Customer-Service",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_webdevelopment-fullstack-bookingwebapp-activity-7222908141498216448-SZMG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
     {
       id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      title: "E-commerce Website",
+      img: "/assets/projects/ecom.png",
+      desc: "The E-commerce Website, built with the MERN stack, provides a seamless shopping experience for users looking to buy a wide range of products online. Featuring an intuitive interface, customers can easily browse categories, filter products, and read detailed descriptions and reviews. The site supports user registration and secure authentication, allowing for personalized shopping experiences and wish lists. With a responsive design, real-time inventory updates, and efficient search functionality, the website ensures that users can find and purchase their desired items effortlessly, all while enjoying smooth navigation and quick load times.",
+      githubLink: "https://github.com/ousman-ali/Ecommerce_Web_App",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_project-title-mern-stack-e-commerce-web-activity-7338444140763901953-BZgm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
     {
       id: 4,
-      title: "Web Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      title: "Portfolio Website",
+      img: "/assets/projects/portfolio.png",
+      desc: "The Portfolio Website, developed using the MERN stack, serves as a professional showcase for individuals to display their skills, projects, and accomplishments. With a visually appealing layout, users can effortlessly navigate through various sections, including project galleries, case studies, and a personal bio. The site features interactive elements like image sliders and hover effects, enhancing user engagement. Additionally, it allows for easy updates and management of content, ensuring that the portfolio remains current and reflective of the creator's evolving expertise and style. Overall, it provides a compelling platform for individuals to present their work to potential employers and clients.",
+      githubLink: "https://github.com/ousman-ali/OAS-Professional-Portfolio",
+      linkedlnLink: ""
     },
     {
       id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+      title: "Tic Tac Toe",
+      img: "/assets/projects/tictac.png",
+      desc: "The Tic-Tac-Toe Web UI, built using React, offers an engaging and interactive experience for players. The app includes real-time updates to display player moves, a scoreboard to track wins. With responsive design principles, it adapts seamlessly to various screen sizes, ensuring a smooth gaming experience on both desktops and mobile devices. The use of React's component-based architecture allows for efficient updates and a dynamic user interface.",
+      githubLink: "https://github.com/ousman-ali/PRODIGY_WD_03",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_prodigy-prodigy-web-activity-7207684265352818688-gxjb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
     {
       id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      title: "Stop Watch Web App",
+      img: "/assets/projects/stopWatch.png",
+      desc: "The Stopwatch Web App, developed using React, provides a simple yet powerful tool for timing events with precision. Featuring a clean and user-friendly interface, users can easily start, pause, and reset the timer with just a click. The app displays elapsed time in real-time, allowing for accurate tracking of activities. With additional features like lap recording and customizable themes, users can personalize their experience. The responsive design ensures that the stopwatch functions seamlessly across various devices, making it a versatile tool for athletes, professionals, or anyone needing precise time management.",
+      githubLink: "https://github.com/ousman-ali/PRODIGY_WD_02",
+      linkedlnLink: "https://www.linkedin.com/posts/ousman-ali-8271182b3_prodigyabrwdabr02-web-internship-activity-7207799806872727552-7bde?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtNR58BPM0rM47K-SWp174MlplkiysyeXc"
     },
   ];
   
   export const mobilePortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Mobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Mobile Hero Design",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Design Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Design Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Design Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Design Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
-  
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+      title: "Not Yet, Working On ...",
+      img: "/assets/projects/loading.png",
+      desc: "",
+      githubLink: "",
+      linkedlnLink: ""
+    }
   ];
 
   export const workData = [
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      title: "About Me",
+      about:
+        "I am an Electrical Engineering graduate and a self-taught software developer with a passion for continuous learning and exploration in diverse tech fields. My academic background equips me with a strong foundation in engineering principles, while my self-directed journey in software development has allowed me to acquire practical skills in various programming languages and technologies. I thrive on challenges and enjoy delving into new areas of technology, constantly seeking opportunities to enhance my knowledge and apply it creatively. My goal is to blend my engineering expertise with software development to drive innovative solutions in the tech industry.",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      title: "My Skills",
+      about:
+        "Skills in Web Development (MERN Stack) \nMongoDB: Proficient in database design, schema modeling, and query optimization. \nExpress.js: Experience in building RESTful APIs and middleware for server-side applications. \nReact.js: Skilled in developing dynamic user interfaces, component-based architecture, and state management. \nNode.js: Familiar with server-side programming, asynchronous coding, and event-driven architecture. \nJavaScript (ES6+): Strong understanding of modern JavaScript features, including promises, async/await, and modular programming. \nHTML/CSS: Expertise in creating responsive layouts and styling with frameworks like Bootstrap or Tailwind CSS.",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      title: "Experience",
+      about:
+        "I am an Electrical Engineering graduate with a passion for software development, complemented by internship experiences at Ethio Telecom and Prodigy Info Tech. During my four-month internship at Ethio Telecom, I worked in the RAN and Optimization section, contributing to the enhancement of network performance and efficiency. At Prodigy Info Tech, I developed four different web applications using React, gaining valuable experience in front-end development and user interface design. Additionally, I continuously practice by working on personal projects, striving to improve my expertise in web development and explore diverse technologies in the ever-evolving tech landscape.",
     },
   ];
 
   export const testimonialsData = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Nur Ahmed",
+      title: "Laravel Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "/assets/noprofile.jpg",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "He consistently demonstrates his dedication, showing noticeable growth and improvement each day despite challenges.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Salhe Seid",
+      title: "MERN Stack Developer",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "/assets/noprofile.jpg",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "He is a fast and committed learner who quickly mastered all aspects of the MERN stack in less time than expected. Currently, he is actively searching for his dream job, excited to find fulfillment and joy in his career.",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Mohammed Seid",
+      title: "Electrical Enginner",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "/assets/noprofile.jpg",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "As a classmate, I witnessed him exploring various tech fields and consistently striving for self-improvement.",
     },
   ];
   

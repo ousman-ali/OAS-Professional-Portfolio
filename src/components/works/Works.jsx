@@ -21,12 +21,11 @@ export default function Works() {
                   <img src={d.icon} alt="" />
                 </div>
                 <h2>{d.title}</h2>
-                <p>{d.desc}</p>
-                <span>Projects</span>
+                <span>Electrical Enginner and Software Developer</span>
               </div>
             </div>
             <div className="right">
-              <img src={d.img} alt="" />
+              <p className="aboutText">{d.about}</p>
             </div>
           </div>
         </div>))}

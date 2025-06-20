@@ -5,8 +5,8 @@ import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
-  designPortfolio,
-  contentPortfolio
+  // designPortfolio,
+  // contentPortfolio
 } from "../../data"
 import { useNavigate } from 'react-router-dom';
 
@@ -28,14 +28,14 @@ export default function Portfolio() {
       id: "mobile",
       title: "Mobile App"
     },
-    {
-      id: "design",
-      title: "Design"
-    },
-    {
-      id: "content",
-      title: "Branding"
-    },
+    // {
+    //   id: "design",
+    //   title: "Design"
+    // },
+    // {
+    //   id: "content",
+    //   title: "Branding"
+    // },
   ]
 
   useEffect(()=>{
@@ -48,12 +48,6 @@ export default function Portfolio() {
       break;
       case "mobile":
       setData(mobilePortfolio);
-      break;
-      case "design":
-      setData(designPortfolio);
-      break;
-      case "content":
-      setData(contentPortfolio);
       break;
       default:
         setData(featuredPortfolio);
@@ -73,6 +67,7 @@ const handleClick =(project)=> {
           active={selected === item.id }
           setSelected={setSelected}
           id={item.id}
+          key={item.id}
           />
         ))}
       </ul>

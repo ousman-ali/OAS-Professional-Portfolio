@@ -2,11 +2,12 @@ import React from 'react'
 import "./singleProject.scss"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function SingleProject() {
     const location = useLocation(null);
     const { project } = location.state || {};
+    console.log(project)
 
   return (
     <div className='singleProject'>
@@ -19,13 +20,10 @@ export default function SingleProject() {
             <h1>{project.title}</h1>
             <div className="title-break" />
             <div className="descContainer">
-              <h3>Description</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Nobis, ex maxime ducimus labore hic tempore possimus nisi et cum ratione 
-                at molestiae consequatur in, harum quod odit ab est! Tempora?
-              </p>
+              <h3>Description:</h3>
+              <p>{project.desc}</p>
             </div>
-            <div className="technologies">
+            {/* <div className="technologies">
               <div className="main-title">
                 <h3>Technologies Used:</h3>
               </div>
@@ -47,15 +45,15 @@ export default function SingleProject() {
                    </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="title-break" />
             <div className="links">
-            <div className="icon">
+            <Link to={project.githubLink} className="icon">
               <GitHubIcon />
-            </div>
-            <div className="icon">
+            </Link>
+            <Link to={project.linkedlnLink} className="icon">
               <LinkedInIcon />
-            </div>
+            </Link>
           </div>
           </div>
       </div> :
