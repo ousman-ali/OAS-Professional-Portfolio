@@ -22,6 +22,12 @@
             margin-top: 30px;
             overflow: hidden;
 
+            @include mobile{
+                height: 80%;
+                width: 80%;
+                margin-bottom: 10px;
+            }
+
             img{
                 width: 100%;
                 height: auto;
@@ -47,6 +53,10 @@
             align-items: center;
             justify-content: space-around;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            @include mobile{
+                height: 60%;
+            }
 
             input{
                 width: 400px;
