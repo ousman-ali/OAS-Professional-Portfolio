@@ -43,6 +43,7 @@
         align-items: center;
         justify-content: center;
         overflow-y: auto;
+        position: relative;
 
         @include mobile{
             margin-top: 10px;
@@ -61,10 +62,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
             @include mobile{
-                    min-height: 80%;
-                    overflow: auto;
-                    position: relative;
-                }
+            }
 
             input{
                 width: 400px;
